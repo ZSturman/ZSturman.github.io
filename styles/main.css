@@ -1,0 +1,61 @@
+:root {
+  --ff: 'Poppins', sans-serif;
+  --main-txt-color: rgb(214, 239, 241);
+  --subheading-txt-color: rgb(120, 200, 253);
+  --content-txt-color: rgb(255, 255, 229);
+}
+
+.full-page {
+  background-color: #131212;
+}
+
+section {
+  min-height: 100vh;
+}
+
+.name {
+  font-size: 12rem;
+  color: var(--main-txt-color);
+  font-family: var(--ff);
+}
+
+.section-heading {
+  font-size: 8rem;
+  color: var(--main-txt-color);
+  font-family: var(--ff);
+}
+
+.project-item-header {
+  color: var(--subheading-txt-color);
+}
+
+.project-item-content {
+  color: var(--content-txt-color);
+}
+
+.divider-line {
+  color: white;
+}
+
+.subheading {
+  color: var(--subheading-txt-color);
+}
+
+.social-links {
+  color: #95c1ff;
+  opacity: .7;
+}
+
+.social-links:hover {
+  color: #d4e6ff;
+  opacity: .9;
+}
+
+.headshot {
+  max-width: 30vw;
+}
+
+.contact-btns {
+  color: var(--subheading-txt-color);
+}
+/*# sourceMappingURL=main.css.map */
