@@ -58,4 +58,31 @@ section {
 .contact-btns {
   color: var(--subheading-txt-color);
 }
+
+@media (max-width: 575.98px) {
+  .name {
+    font-size: 5rem;
+  }
+  .section-heading {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .name {
+    font-size: 5rem;
+  }
+  .section-heading {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .name {
+    font-size: 6rem;
+  }
+  .section-heading {
+    font-size: 5rem;
+  }
+}
 /*# sourceMappingURL=main.css.map */
